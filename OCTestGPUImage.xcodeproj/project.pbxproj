@@ -13,6 +13,7 @@
 		2F1A264A207DFF5D008B6677 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F1A2649207DFF5D008B6677 /* Assets.xcassets */; };
 		2F1A264D207DFF5D008B6677 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F1A264B207DFF5D008B6677 /* LaunchScreen.storyboard */; };
 		2F1A2650207DFF5D008B6677 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1A264F207DFF5D008B6677 /* main.m */; };
+		2F50B5E3207E0FFF008C5C22 /* YROtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F50B5E2207E0FFF008C5C22 /* YROtherViewController.m */; };
 		8EDCFED4BAAFD5E2E30E39E6 /* Pods_OCTestGPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAAFD501A5F9C285773D09E6 /* Pods_OCTestGPUImage.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,8 @@
 		2F1A264C207DFF5D008B6677 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F1A264E207DFF5D008B6677 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F1A264F207DFF5D008B6677 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F50B5E1207E0FFF008C5C22 /* YROtherViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YROtherViewController.h; sourceTree = "<group>"; };
+		2F50B5E2207E0FFF008C5C22 /* YROtherViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YROtherViewController.m; sourceTree = "<group>"; };
 		BAAFD501A5F9C285773D09E6 /* Pods_OCTestGPUImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCTestGPUImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E02227E6E3F418F63368121C /* Pods-OCTestGPUImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCTestGPUImage.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCTestGPUImage/Pods-OCTestGPUImage.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,6 +72,8 @@
 				2F1A2641207DFF5D008B6677 /* AppDelegate.m */,
 				2F1A2643207DFF5D008B6677 /* ViewController.h */,
 				2F1A2644207DFF5D008B6677 /* ViewController.m */,
+				2F50B5E1207E0FFF008C5C22 /* YROtherViewController.h */,
+				2F50B5E2207E0FFF008C5C22 /* YROtherViewController.m */,
 				2F1A2646207DFF5D008B6677 /* Main.storyboard */,
 				2F1A2649207DFF5D008B6677 /* Assets.xcassets */,
 				2F1A264B207DFF5D008B6677 /* LaunchScreen.storyboard */,
@@ -225,6 +230,7 @@
 			files = (
 				2F1A2645207DFF5D008B6677 /* ViewController.m in Sources */,
 				2F1A2650207DFF5D008B6677 /* main.m in Sources */,
+				2F50B5E3207E0FFF008C5C22 /* YROtherViewController.m in Sources */,
 				2F1A2642207DFF5D008B6677 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
